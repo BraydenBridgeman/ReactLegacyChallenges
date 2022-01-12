@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container} from 'reactstrap';
-import DogIndex from '../Dogs/DogIndex';
+import DogIndex from './DogIndex'
  
 const Dogs = () => {
 
