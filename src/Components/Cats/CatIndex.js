@@ -8,11 +8,13 @@ export default class CatIndex extends Component {
      breeds: ['persian', 'siamese', 'maine coon', 'ragdoll', 'scottish fold', 'sphynx', 'british shorthair', 'bengal', 'american shorthair']
    }
  }
+
  breeds = () => {
    this.setState (
      { breeds: this.state.breeds }
    );
  };
+ 
   render() {
     return (
       <div>
