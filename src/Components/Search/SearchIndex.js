@@ -47,4 +47,4 @@ export default class SearchIndex extends Component {
       </div>
     )
   }
- }
+}
